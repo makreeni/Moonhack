@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technosphere Club - Medicaps University</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS for improved style */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f4f6;
+        }
+
+        header {
+            background: #007ACC;
+            color: white;
+            padding: 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 2rem 1rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007ACC;
+        }
+
+        ul li {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        /* Button styling */
+        button {
+            background-color: #007ACC;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005DA3;
+        }
+
+        /* Input styling */
+        input, textarea {
+            width: 100%;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #007ACC;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Technosphere Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to the Technosphere Club!</h2>
+        <p>Join us in exploring the latest in technology and engineering.</p>
+        <h3>Upcoming Events</h3>
+        <ul>
+            <li>Tech Talk - Date</li>
+            <li>Workshop on AI - Date</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our mission is to foster innovation and collaboration among engineering students.</p>
+    </section>
+
+    <section id="events">
+        <h2>Events</h2>
+        <p>Check out our upcoming events and workshops!</p>
+        <ul>
+            <li>Event 1 - Details</li>
+            <li>Event 2 - Details</li>
+        </ul>
+    </section>
+
+    <section id="members">
+        <h2>Members</h2>
+        <p>Meet our dedicated members!</p>
+        <ul>
+            <li>Member 1</li>
+            <li>Member 2</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Technosphere Club, Medicaps Engineering University</p>
+    </footer>
+</body>
+</html>
